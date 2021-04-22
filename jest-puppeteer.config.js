@@ -4,7 +4,7 @@ module.exports = {
     launch: {
         headless: false,
         slowMo: process.env.SLOWMO ? process.env.SLOWMO : 0,
-        devtools: true,
+        devtools: false,
         timeout: 3000000, //  5 minute timeout
         args: ["--no-sandbox"],   // don't use a sandbox
     },
