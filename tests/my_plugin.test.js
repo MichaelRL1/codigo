@@ -1,14 +1,14 @@
-/**
- * @jest-environment jsdom
- */
+
+ @jest-environment jsdom
+ 
 
  // These unit tests don't use puppeteer/headless chrome
 
-/*
+
 global.jQuery = function(argument) {
     return global.jQuery.jQuery_function(argument);
 };
-*/
+
 
 // var index = require('../dist/index');
 import hello_jest_is_loaded from "../dist/index";
