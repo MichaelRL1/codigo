@@ -6,6 +6,6 @@ module.exports = {
         slowMo: process.env.SLOWMO ? process.env.SLOWMO : 0,
         devtools: true,
         timeout: 3000000, //  5 minute timeout
-        args: ["--no-sandbox","HeadlessChrome"],   // don't use a sandbox
+        args: ["--no-sandbox","--headless"],   // don't use a sandbox
     },
 }
